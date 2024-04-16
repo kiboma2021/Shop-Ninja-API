@@ -4,5 +4,5 @@ from products.api import app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', app.urls)
+    path('api/', app.urls),
 ]
